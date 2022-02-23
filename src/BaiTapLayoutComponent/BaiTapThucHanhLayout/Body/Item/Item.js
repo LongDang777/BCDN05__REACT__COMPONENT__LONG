@@ -4,7 +4,7 @@ export default class Item extends Component {
   cardImg = "https://picsum.photos/500/325"
   render() {
     return (
-      <div className='col-3'>
+      <div className='col-lg-3 col-xxl-4'>
           <div className='text-center'>
             <div className="card border-0 h-100" >
               <img src={this.cardImg} className="card-img-top" alt="..." />
